@@ -10,4 +10,4 @@
     Write-Output $StringWriter.ToString() 
 }
 
- Format-XML ([xml](cat C:\xmltest\web.config)) -indent 4 > C:\xmltest\test.config
+ Format-XML ([xml](cat C:\GitBase\config\2015\stage\Swf-Member-Large-Activity\SWFActivities.exe.config)) -indent 4 > C:\xmltest\test.config
